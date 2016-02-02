@@ -1,0 +1,31 @@
+{
+  "name": "@scola/websocket-filter-msgpack",
+  "version": "1.0.0",
+  "description": "MessagePack filter for WebSockets",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/scola84/node-websocket-filter-msgpack.git"
+  },
+  "author": "M.C. van den Boogaart <scola@kvdb.name>",
+  "license": "MIT",
+  "main": "index.js",
+  "browserify": {
+    "transform": [
+      [
+        "babelify",
+        {
+          "presets": [
+            "es2015"
+          ]
+        }
+      ]
+    ]
+  },
+  "devDependencies": {
+    "babel-preset-es2015": "^6.3.13",
+    "babelify": "^7.2.0"
+  },
+  "dependencies": {
+    "msgpack": "^1.0.2"
+  }
+}
