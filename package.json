@@ -1,6 +1,6 @@
 {
   "name": "@scola/websocket-filter-msgpack",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "MessagePack filter for WebSockets",
   "repository": {
     "type": "git",
